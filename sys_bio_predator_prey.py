@@ -17,7 +17,6 @@ nr = 500 # carrying capacity of rabbits
 r_init = 100 # initial rabbit population
 mr = 0.03 # magnitude of movement of rabbits
 dr = 1.0 # death rate of rabbits when it faces foxes
-dr_g=0.5 #death rate of rabbits by starvation or exceeded carrying capacity
 rr = 0.9 # reproduction rate of rabbits
 f_init = 80 # initial fox population
 mf = 0.05 # magnitude of movement of foxes
@@ -29,6 +28,9 @@ mg=0.03 #magnitude of movement of grass
 dg=0.8 #death rate of grass to
 cd = 0.02 # radius for collision detection
 cdsq = cd ** 2
+
+dr_g=0.5 #death rate of rabbits by starvation or exceeded carrying capacity
+
 
 class agent:
     pass
